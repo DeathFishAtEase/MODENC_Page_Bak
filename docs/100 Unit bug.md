@@ -130,10 +130,17 @@ Just make sure to check the INI flags for each civilian unit. All of them have T
 - Since the method I suggested was removed, because I didn't tell you how to do it all (AI doesn't have enough production cost, why don't you create a money source that players can't create (really stupid)).
 
 And later I found a better method, but I didn't tell you for personal reasons, but today I'm going to reveal it
+
 1. You add the tag
+
 [RequiresStolenAlliedTech=yes](https://modenc.renegadeprojects.com/RequiresStolenAlliedTech)
+
 [RequiresStolenSovietTech=yes](https://modenc.renegadeprojects.com/RequiresStolenSovietTech)
+
 [RequiresStolenThirdTech=yes](https://modenc.renegadeprojects.com/RequiresStolenThirdTech)
+
 to the unit you want to create alone, but don't want AI to create with it
+
 2. Add the PrerequisiteOverride tag to that unit, and specify only buildings that human players can build (I won't tell you what tags are used to define this method, but you wouldn't be more stupid than I thought).
+
 Even though the spy didn't enter the lab of all 3 factions, it definitely works
